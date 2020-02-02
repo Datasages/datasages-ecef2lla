@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.datasages.railmanager</groupId>
+  <artifactId>ecef2lla</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Ecef2LLA</name>
+  <description>Convert ECEF to LLA</description>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.orekit/orekit -->
+	<dependency>
+    	<groupId>org.orekit</groupId>
+    	<artifactId>orekit</artifactId>
+    	<version>10.0</version>
+	</dependency>
+  </dependencies>
+</project>
